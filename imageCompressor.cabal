@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c509621fc29759a7a32820000afa9a4c81228fae69b287a89f716dbf62d8f7ed
+-- hash: 04e6b8a8dfe7394191e4926e34b167781c3f6cf7da66052d6095499a79936da1
 
 name:           imageCompressor
 version:        0.1.0.0
@@ -27,6 +27,8 @@ source-repository head
 
 library
   exposed-modules:
+      ArgsManagement
+      ArgumentsHandling
       Lib
   other-modules:
       Paths_imageCompressor

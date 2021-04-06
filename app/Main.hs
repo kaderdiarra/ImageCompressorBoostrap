@@ -1,6 +1,7 @@
 module Main where
 
 import Lib
+import ArgsManagement
 
 main :: IO ()
-main = someFunc
+main = someFuncTest
